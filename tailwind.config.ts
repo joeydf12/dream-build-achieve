@@ -57,6 +57,33 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // ActiveColor custom colors
+        hero: {
+          DEFAULT: "hsl(var(--hero-bg))",
+          foreground: "hsl(var(--hero-foreground))",
+        },
+        brand: {
+          blue: "hsl(var(--brand-blue))",
+          cyan: "hsl(var(--brand-cyan))",
+        },
+        "dark-card": {
+          DEFAULT: "hsl(var(--dark-card))",
+          foreground: "hsl(var(--dark-card-foreground))",
+        },
+        "sport-card": {
+          DEFAULT: "hsl(var(--sport-card))",
+          hover: "hsl(var(--sport-card-hover))",
+        },
+      },
+      backgroundImage: {
+        "gradient-brand": "var(--gradient-brand)",
+        "gradient-hero": "var(--gradient-hero)",
+        "gradient-card": "var(--gradient-card)",
+      },
+      boxShadow: {
+        "glow": "var(--shadow-glow)",
+        "card": "var(--shadow-card)",
+        "soft": "var(--shadow-soft)",
       },
       borderRadius: {
         lg: "var(--radius)",
